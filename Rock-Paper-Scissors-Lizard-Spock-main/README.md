@@ -234,8 +234,33 @@ Overall, the code provided creates an interactive and visually appealing game th
 
 **Have fun playing!** 🚀
 
-[See my game here in GitHub](https://5555-aol83-rockpaperscissor-5x6gk5azwx5.ws-eu84.gitpod.io/Terence-rock-paper-scissors-lizard-spock-master/index.html)
+[See my game here in GitHub](https://aol83.github.io/)
 
-## Sponsors
+## Acknowledgements
+
+A massive thanks to (FrontEndMentor) https://www.frontendmentor.io/home for the huge ocean of knowledge surrounding this challenge and the enormous library of challenges to test and grow your coding abilities a big thanks.
+
+A massive thanks to (Clever Programmer) https://cleverprogrammer.com/ - https://www.youtube.com/@CleverProgrammer and to all his helpful YouTube videos on layout and construction of the basic RPS challenge from front end mentor
+
+A massive thanks to (Competent Programming) https://github.com/CompetentProgramming - https://www.twitch.tv/competent_programming and his helpful YouTube videos on layout and construction of the advanced RPSLS challenge from front end mentor
+
+A massive thanks to (Kevin Powell) https://www.youtube.com/@KevinPowell and his wide range of of knowledge of all types of layout responsiveness, and vast understanding of HTML, CSS, Js.
 
 A massive thank you to the slack community!
+
+Big thanks to YouTube for their library of informational videos
+
+And a massive thank you to Offset, Migos, & Takeoff (RIP), and to the music video Quavo & Takeoff - HOTEL LOBBY /A COLORS SHOW. I added this tune in memory of one of my favorite artists the video to this tune was created by
+Director & Photographer— Munachi Osegbu
+Head Producer— Tameesha Holder
+Producer— Azure McBride / COLORS
+Director of Photography— Sade Ndya Young
+1st AC— Keitu Mokhonwana
+Sound Engineer— Jayda Love
+Photo/Lighting Assistant— Byron Nickleberry
+Production Assistant— Ashaki George
+Production Assistant— Leah Myton
+Key Grip— Ricky Irizarry
+Gaffer— Theo Hyppolite
+Set Designer— Rochelle Bennett
+Curation - Brandon Payano / COLORS
