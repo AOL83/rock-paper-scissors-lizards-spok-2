@@ -19,9 +19,7 @@ My challenge was to build a Rock, Paper, Scissors game.
 our users should be able to:
 
 - View the optimal layout for the game depending on their device's screen size
-- Play Rock, Paper, Scissors against the computer
-- Maintain the state of the score after refreshing the browser _(optional)_
-- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
+- Play Rock, Paper, Scissors, Lizard, Spock against the computer
 
 ### Rules
 
@@ -33,7 +31,7 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 - Rock beats Scissors
 - Scissors beats Paper
 
-#### Bonus
+#### Advanced 
 
 - Scissors beats Paper
 - Paper beats Rock
@@ -52,6 +50,32 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Building my project
 
+Building my project that uses all the code types provided requires a multi-disciplinary approach to software development, as each code type has its own strengths and weaknesses and is suited to different tasks. To build out this project that uses all the code types effectively, it is necessary to understand how they can be combined to achieve the desired results.
+
+The first step in building this project that uses all the code types is to determine the requirements of the project. This will help to identify what code types are needed and how they should be used. For example, if the project requires real-time data processing, then a scripting language such as Python may be a better choice than a compiled language such as Java.
+
+Once the requirements of the project have been established, the next step is to design the architecture of the project. This involves deciding how the different code types will interact with each other and what their roles will be in the project. For example, a low-level language such as C may be used to handle the hardware interactions, while a high-level language such as Python may be used for data processing and visualization.
+
+After the architecture of the project has been determined, the next step is to implement the project. This involves writing the code for each component and integrating it with the other components. For example, the C code may be used to handle the hardware interactions, while the Python code may be used for data processing and visualization. It is important to ensure that the code is well-structured and follows best practices, such as using functions, classes, and modules to organize the code and make it easier to maintain but I digress.
+
+Once the project has been implemented, the next step is to test and debug it. This involves running the project and verifying that it works as expected. If there are any issues, they should be fixed and the project should be tested again. This process should be repeated until the project is working as expected.
+
+Finally, the last step is to deploy the project. This involves installing the project on the target hardware or platform and making it available for use. This may involve configuring the hardware, installing the necessary software, and setting up any necessary network connections.
+
+In conclusion, building this project that uses all the code types requires a multi-disciplinary approach to software development. It involves determining the requirements of the project, designing the architecture, implementing the project, testing and debugging it, and deploying it. By combining the strengths of different code types and using them in the appropriate manner, it is possible to build a project that is both efficient and effective.
+
+Building this game also requires a comprehensive understanding of various coding languages such as HTML, CSS, and JavaScript. The process of building a game typically involves several steps, which are discussed below in detail.
+
+HTML (Hypertext Markup Language) serves as the backbone of the game. It is used to create the structure of the game and define the elements that are displayed on the screen. To build a game, you need to create a container for the game using HTML tags such as <div>. The <div> tag is used to define the container for the game.
+
+CSS (Cascading Style Sheets) is used to style the HTML elements. It allows you to control the look and feel of the game by defining styles such as color, font size, and layout. CSS is essential in making the game look aesthetically pleasing and professional. You can use CSS styles such as background-color, width, and height to control the appearance of the game container. Additionally, you can use CSS to define the styles for different game elements such as buttons, text, and images.
+
+JavaScript is used to add interactivity to the game. It is the main programming language that controls the game logic, including game events, player movement, and score keeping. JavaScript is used to create functions that are triggered by user actions such as button clicks, keyboard inputs, and mouse movements. For example, you can use JavaScript to control the movement of the player, detect collisions with other game elements, and update the score.
+
+To build this game, you need to use a combination of HTML, CSS, and JavaScript. The HTML elements define the structure of the game, the CSS styles control the appearance of the game, and the JavaScript code controls the game logic and interactivity. You need to write code to define the game elements, style the game elements, and control the game logic. The code must be written in such a way that it is compatible with different browsers and devices.
+
+Building this game requires a comprehensive understanding of HTML, CSS, and JavaScript. These coding languages work together to create the structure, appearance, and interactivity of the game. HTML provides the structure, CSS provides the styling, and JavaScript provides the interactivity and game logic. By using these coding languages, you can build a professional-looking game that is both functional and enjoyable to play.
+
 My code is a combination of HTML, CSS, and JavaScript that creates an interactive Rock, Paper, Scissors, Lizard, Spock game. In my rundown, we will go through each code type, their use, and purpose, and a breakdown of the JavaScript code, including any mathematical logic used, its function, and how it works. follow these steps:
 
 1. HTML:
@@ -64,6 +88,41 @@ My code is a combination of HTML, CSS, and JavaScript that creates an interactiv
    The JavaScript code is responsible for the interactivity and logic of the game. It includes functions such as updateClock(), handleClick(), and event listeners such as audioFile.addEventListener(), play Button.addEventListener(), btnOpenModal.addEventListener(), xCloseModal addEventListener(), and window.addEventListener().The updateClock() function is used to update the clock on the game's screen, using the built-in Date object to get the current date and time The handleClick function is used to handle the user's choice of Rock, Paper, Scissors, Lizard, or Spock and determine the outcome of the game. Event listeners are used to listen for specific actions such as clicking a button or uploading an audio file and responding with a specific action such as playing audio or opening a modal window. The HTML, CSS, and JavaScript code work together to create an interactive Rock, Paper, Scissors, Lizard, and Spock game that includes a clock, audio player, modal window, and sound switch. The HTML provides the structure, the CSS provides the styling, and the JavaScript provides the interactivity and logic, making for a seamless and engaging user experience. The game also includes additional features such as background sound and a scorecard, making it a well-rounded and fully-featured game. The JavaScript code is used to add functionality to the game. The code starts by declaring variables to store references to the audio, the play button, an audio file, and play icon elements. An event listener is added to the audio file input to handle when a new audio file is selected. When a new file is selected, the audio element's src attribute is set to the URL of the selected file. When the play button is clicked, an event listener is triggered that checks the current state of the audio element (paused or playing). If the audio is paused, the play() method is called on the audio element, the "playing" class is added to the play button, and the "fa-spin" class is added to the play icon to show that the audio is playing. If the audio is already playing, the pause() method is called on the audio element, the "playing" class is removed from the play button, and the "fa-spin" class is removed from the play icon to show that the audio is paused. The code also includes a function for updating the clock that displays the current date and time. This function uses the setInterval() method to call the function every second. The code also includes an event listener for the "open model" button that toggles the modal window's visibility. For the gameplay, the code uses the Math. floor() and Math. random() methods to generate a random number between 0 and 4. This number is then used as an index to select a choice for the computer player. The code also includes event listeners for each choice icon that handles the user's choice and compares it to the computer's choice to determine the winner. The code uses the dataset property to access the value of the data-choice attribute for each choice icon, which represents the user's choice. The code also uses CSS to style the page and elements. The HTML element has many CSS styles applied to it including font size, background colour, background image, and background size. The .header class is used to style the header element, and the .clock class is used to style the clock element. The .box class is used to style the container for the audio player, and the .audio-player class is used to style the audio player itself. The .circle-button class is used to style the play button, and the .audio-controls class is used to style the audio controls. This code provides a functioning Rock Paper Scissors Lizard Spock game with an audio player and clock feature as well as a modal window for displaying rules. The HTML and CSS code provides the structure and layout for the page, and the JavaScript code provides the functionality for the game, audio player, clock, and modal window. The use of CSS classes and the dataset property in the JavaScript code allows for easy modification and customization of the game. Additionally, the use of mathematical methods such as Math. floor() and Math. random() allows for a random selection of the computer player's choice. The JavaScript code provided in this essay is used to create an interactive Rock, Paper, Scissors, Lizard, and Spock game. The code uses JavaScript to handle user interactions, update the game state and display the results. The first section of the JavaScript code is for the audio player. It uses the getElementById() method to select the audio element, play button, and audio file input element. The addEventListener() method is used to listen for a change in the audio file input element, and when a change is detected, the src property of the audio element is set to the selected file using the URL.createObjectURL() method. The play button is also given a click event using the addEventListener() method, which will toggle the play and pause functionality of the audio element. The code also handles the ended event on the audio element, which will remove the playing class and the fa-spin class on the play button. The next section of JavaScript code is for the clock. It uses the setInterval() method to call the update lock () function every second. The update clock () function uses the Date() object to get the current date and time and then sets the inner HTML of the date and time elements to the current date and time.The next section of JavaScript code is for the modal window. It uses the querySelector() method to select the modal, modal content, open modal button, and close modal button. The addEventListener() method is used to listen for a click event on the open modal button, which will display the modal window, and the close modal button, which will hide the modal window. The code also uses an event listener on the window to check if the click event was on the modal and if so, it will hide the modal window. The next section of JavaScript code is for the game. It uses the querySelector() and querySelectorAll() methods to select the game elements and variables used in the game. The code uses an event listener on the game elements to listen for a click event, which will call the handleClick() function. The handleClick() function The handleClick() function is responsible for handling the game logic. It starts by playing the audio for the user's choice and toggling the result class on the body. It then removes any existing classes on the user and house icons, hides the play again button and message, and sets the display of the house icon to none. The function then uses the dataset property of the clicked element to get the user's choice and generates a random number between 0 and 4 to select the house's choice. It then sets the display of the start page to none and the display of the result page to block.The function then checks the user's choice against the house's choice using a series of if-else statements. Depending on the outcome of the game, it will update the score, change the message, play the appropriate audio, and show the house's choice icon. The final section of the JavaScript code is for the sound switch. It uses the querySelector() method to select the checkbox and label elements. The code uses an event listener on the checkbox to listen for a change event, which will toggle the muted property on the background sound element. Overall, the HTML, CSS, and JavaScript work together to create an interactive Rock, Paper, Scissors, Lizard, Spock game that includes a clock, audio player, modal window, and sound switch`query.
 
 ## Deploying your project
+
+To deploy your project on GitHub, follow these steps:
+
+Create a GitHub account if you don't have one.
+
+Create a new repository for your project. Give it a descriptive name and initialize it with a README file.
+
+Open your terminal and navigate to the root directory of your project.
+
+Initialize a Git repository in the root directory of your project using the following command:
+
+csharp
+Copy code
+$ git init
+Add the GitHub remote repository to your local repository using the following command:
+csharp
+Copy code
+$ git remote add origin [repository-url]
+Replace [repository-url] with the URL of your GitHub repository.
+
+Add all the files in your project to the Git repository using the following command:
+
+csharp
+$ git add .
+Commit the changes to the repository using the following command:
+
+ruby
+$ git commit -m "Initial commit"
+Push the changes to the GitHub repository using the following command:
+
+perl
+$ git push -u origin master
+
+Your project is now deployed on GitHub and can be accessed using the URL of your repository.
+Note: You can repeat steps 6 to 8 every time you make changes to your project and want to update the GitHub repository.
 
 ## Giving feedback on my project
 
@@ -86,7 +145,7 @@ Overall, I think my code is a well-structured and functional webpage that implem
 Now for my CSS.
 The CSS stylesheet that controls the visual design and layout of my webpage. The CSS styles are applied to the HTML elements of the webpage.
 
-The first CSS rule sets the font-size to 62.5%, sets the box-sizing property to border-box, sets the height to 100%, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49%, 15%) and the background image is set to a radial gradient of hsl(214, 43%, 35%) and hsl(237, 49%, 15%), as well as a gif image of a animated emoji. The background-position, background-repeat, and background-size properties are also set to center, no-repeat, and cover respectively.
+The first CSS rule sets the font-size to 62.5%. sets the box-sizing property to border-box, sets the height to 100%, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49%, 15%) and the background image is set to a radial gradient of hsl(214, 43%, 35%) and hsl(237, 49%, 15%), as well as a gif image of a animated emoji. The background-position, background-repeat, and background-size properties are also set to center, no-repeat, and cover respectively.
 
 The next CSS rule sets the box-sizing property to inherit for all elements, which means that the box-sizing property of the parent element will be inherited by all child elements. The body element is also given a margin, font, and font-weight. A focus rule is added to set the outline of an element to 3px dotted hsl(0, 100%, 50%) when it is focused.
 
