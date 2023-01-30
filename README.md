@@ -124,8 +124,34 @@ The seventh and final section of the code handles the logic of the game. When th
 
 Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
 
-**Have fun playing!** 🚀
+**Have fun playing my version of the game link below!** 🚀
+[See my game live here in GitHub pages](https://aol83.github.io/)
 
-## Sponsors
+## Acknowledgement
 
-A massive thank you to our community sponsors!
+A massive thank you to FrontEndMentor - https://www.frontendmentor.io/home and the wide variety of challenges and information surrounding this project to help you sharpen your coding skills.
+
+A massive thank you to Clever Programmer https://github.com/CleverProgrammers - https://cleverprogrammer.com/ - https://www.youtube.com/watch?v=C6jSg4VPNZE&t=4771s and to Naz's YouTube video on the basic version of RPS.
+
+A massive thank you to Competent Programming https://www.twitch.tv/competent_programming - https://www.youtube.com/@CompetentProgramming and his YouTube video on the advanced version of RPSLS.
+
+A massive thank you to kevin powell https://www.youtube.com/@KevinPowell - https://www.instagram.com/kevinpowell.co/ for his vast knowledge of all things to do with responsive layouts HTML, CCS, and Js.
+
+A massive thank you to the Slack community!
+
+Big thanks to YouTube for for their YouTube video's - https://www.youtube.com/.
+
+A massive acknowledgement to offset, Migos, and Takeoff RIP. I added this song (Quavo & Takeoff - HOTEL LOBBY | A COLORS SHOW) & a background image in memory of one of my favourite artists the song and video can be found at https://www.youtube.com/watch?v=x9yop0nYR9g which was created by
+Director & Photographer— Munachi Osegbu
+Head Producer— Tameesha Holder
+Producer— Azure McBride / COLORS
+Director of Photography— Sade Ndya Young
+1st AC— Keitu Mokhonwana
+Sound Engineer— Jayda Love
+Photo/Lighting Assistant— Byron Nickleberry
+Production Assistant— Ashaki George
+Production Assistant— Leah Myton
+Key Grip— Ricky Irizarry
+Gaffer— Theo Hyppolite
+Set Designer— Rochelle Bennett
+Curation - Brandon Payano / COLORS
