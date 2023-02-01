@@ -173,7 +173,7 @@ function checkPassword() {
   var password = document.getElementById("password").value;
   console.log(password);
   if (password == "helloworld") {
-    window.location.href = "https://5555-aol83-aol83githubio-ppcq2um24j4.ws-eu84.gitpod.io/index.html";
+    window.location.href = "https://aol83.github.io";
   } else {
     alert("Wrong password, try again.");
   }
