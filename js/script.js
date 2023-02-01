@@ -169,3 +169,11 @@ document.querySelector("#switch").addEventListener("click", (e) => {
   e.target.classList.toggle("playBgSound");
   e.target.classList.contains("playBgSound") ? bgSound.play() : bgSound.pause();
 });
+function checkPassword() {
+  var password = document.getElementById("password").value;
+  if (password == "helloworld") {
+    window.location.href = "index.html";
+  } else {
+    alert("Wrong password, try again.");
+  }
+}
