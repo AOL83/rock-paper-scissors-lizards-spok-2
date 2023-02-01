@@ -172,7 +172,7 @@ document.querySelector("#switch").addEventListener("click", (e) => {
 function checkPassword() {
   var password = document.getElementById("password").value;
   if (password == "helloworld") {
-    window.location.href = "index.html";
+    window.location.href = "signin.html";
   } else {
     alert("Wrong password, try again.");
   }
