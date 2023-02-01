@@ -171,8 +171,9 @@ document.querySelector("#switch").addEventListener("click", (e) => {
 });
 function checkPassword() {
   var password = document.getElementById("password").value;
+  console.log(password);
   if (password == "helloworld") {
-    window.location.href = "signin.html";
+    window.location.href = "https://5555-aol83-aol83githubio-ppcq2um24j4.ws-eu84.gitpod.io/index.html";
   } else {
     alert("Wrong password, try again.");
   }
