@@ -56,17 +56,38 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 Building my project that uses all the code types provided requires a multi-disciplinary approach to software development, as each code type has its own strengths and weaknesses and is suited to different tasks. To build out this project that uses all the code types effectively, it is necessary to understand how they can be combined to achieve the desired results.
 
-The first step in building this project that uses all the code types is to determine the requirements of the project. This will help to identify what code types are needed and how they should be used. For example, if the project requires real-time data processing, then a scripting language such as Python may be a better choice than a compiled language such as Java.
+The first step in building a project like this is to determine the requirements of the project (Go to Clever Programmer https://github.com/CleverProgrammers - https://cleverprogrammer.com/ - https://www.youtube.com/watch?v=C6jSg4VPNZE&t=4771s and to Naz's YouTube video on the basic version of RPS)tThis will help to identify what code types are needed and how they should be used. For example, if the project requires real-time data processing, then a scripting language
+13 Best Scripting Languages
+
+JavaScript is a highly popular, general-purpose scripting language used by Google Chrome and other businesses. JavaScript is what allows your social media feed to automatically update and allows you to experience websites fully. JavaScript can be used as a client-side or server-side scripting language..
+
+PHP is an open-source, server-side programming language that can be used to create websites, applications, customer relationship management systems and more. It is a widely-used general-purpose language that can be embedded into HTML. This functionality with HTML means that the PHP language has remained popular with developers as it helps to simplify HTML code..
+
+Python is used by financial institutions and tech companies such as Netflix, Facebook, Uber, and Google. Python is a server-side scripting language used for application development and connecting different programming languages at multi-language companies. Python is also used by government agencies such as the FBI, CIA, NSA, and NASA..
+
+Ruby is a server-side scripting language used for creating web browsers, but it can be used for other program applications as well. Ruby is open-source, meaning that its original source code is free and available for anyone to use. Apps such as Hulu and Airbnb have used Ruby in the past..
+
+Groovy is a dynamic object-oriented programming language for the Java virtual machine (JVM) that can be used anywhere Java is used. The language can be used to combine Java modules, extend existing Java applications and write new applications.
+
+Groovy can serve as a scripting language for developers new to the Java platform and can also be useful for veteran Java developers interested in enhancing the expediency and flexibility of that language.
+
+Groovy has a Java-like syntax and works seamlessly with Java bytecode. Many of the language's features resemble those of Perl, Python, Ruby and Smalltalk.
+
+Perl is a high-level, interpreted, general-purpose programming language originally developed for text manipulation. It borrows many features from C and Shell script and is used for system administration, networking, and other applications that involve user interfaces. It was initially developed by Larry Wall in 1987 as a scripting language to make report processing easier and is implemented into the C programming language. Perl refers to the Perl5 version through 2019, when it was redesigned as sister language, Perl6, before it was altered to Raku in October 2019..
+
+Lua is a robust, lightweight, and embeddable scripting language that supports multiple programming methods, including procedural, object-oriented, functional, and data-driven programming.
+But I seriously digress.
+
 
 Once the requirements of the project have been established, the next step is to design the architecture of the project. This involves deciding how the different code types will interact with each other and what their roles will be in the project. For example, a low-level language such as C may be used to handle the hardware interactions, while a high-level language such as Python may be used for data processing and visualization.
 
-After the architecture of the project has been determined, the next step is to implement the project. This involves writing the code for each component and integrating it with the other components. For example, the C code may be used to handle the hardware interactions, while the Python code may be used for data processing and visualization. It is important to ensure that the code is well-structured and follows best practices, such as using functions, classes, and modules to organize the code and make it easier to maintain but I digress.
+After the architecture of the project has been determined, the next step is to implement the project. This involves writing the code for each component and integrating it with the other components. For example, the C code may be used to handle the hardware interactions, while the js and Python code types may be used for data processing and visualization. It is important to ensure that the code is well-structured and follows best practices, such as using functions, classes, and modules to organize the code and make it easier to maintain.
 
 Once the project has been implemented, the next step is to test and debug it. This involves running the project and verifying that it works as expected. If there are any issues, they should be fixed and the project should be tested again. This process should be repeated until the project is working as expected.
 
 Finally, the last step is to deploy the project. This involves installing the project on the target hardware or platform and making it available for use. This may involve configuring the hardware, installing the necessary software, and setting up any necessary network connections.
 
-In conclusion, building this project that uses all the code types requires a multi-disciplinary approach to software development. It involves determining the requirements of the project, designing the architecture, implementing the project, testing and debugging it, and deploying it. By combining the strengths of different code types and using them in the appropriate manner, it is possible to build a project that is both efficient and effective.
+In conclusion, building this project that has all theses code types requires a multi-disciplinary approach to software development. It involves determining the requirements of the project, designing the architecture, implementing the project, testing and debugging it, and deploying it. By combining the strengths of different code types and using them in the appropriate manner, it is possible to build a project that is both efficient and effective.
 
 Building this game also requires a comprehensive understanding of various coding languages such as HTML, CSS, and JavaScript. The process of building a game typically involves several steps, which are discussed below in detail.
 
@@ -132,7 +153,9 @@ Note: You can repeat steps 6 to 8 every time you make changes to your project an
 ## Giving feedback on my project
 
 
-Feedback is always welcome, "So" here is mine, Im going to start with my index.html page but my hole web project is written in a combination of HTML, CSS and JavaScript. The page is a game of Rock, Paper, Scissors, Lizard, Spock, from the famous U.S series the big bang theory which at hart is an extension of the traditional game of Rock, Paper, Scissors.
+Feedback is always welcome.
+
+The HTML page is a game of Rock, Paper, Scissors, Lizard, Spock, from the famous U.S series the big bang theory which at hart is an extension of the traditional game of Rock, Paper, Scissors.
 
 The code starts with the declaration of the document type, <!DOCTYPE html>, which tells the browser that this is an HTML document. The next line, <html lang="en">, declares that the document is in English.
 
@@ -146,14 +169,14 @@ The webpage also includes a button to open a modal displaying the rules of the g
 
 In the main section of the webpage, the game itself is implemented. The game features icons for each of the game options - rock, paper, scissors, lizard, and spock. These icons are implemented as div elements with specific class names and data attributes. The game is implemented using JavaScript and event listeners are added to the icons to detect when they are clicked and determine the outcome of the game.
 
-Overall, I think my code is a well-structured and functional webpage that implements a game of Rock, Paper, Scissors, Lizard, Spock, complete with an audio player, a score card, and a modal for the rules. I have used HTML, CSS, and JavaScript to create a dynamic and interactive experience for the user.
+I think my code is a well-structured it gives the user a functional webpage that implements a game of Rock, Paper, Scissors, Lizard, Spock, complete with two audio players one for background sound and the other for the user to pick from their own music which is loaded for the device, a score card, and a modal for the rules. I have used HTML, CSS, and JavaScript to create a dynamic and interactive experience for the user.
 
 Now for my CSS.
 The CSS stylesheet that controls the visual design and layout of my webpage. The CSS styles are applied to the HTML elements of the webpage.
 
-The first CSS rule sets the font-size to 62.5%. sets the box-sizing property to border-box, sets the height to 100%, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49%, 15%) and the background image is set to a radial gradient of hsl(214, 43%, 35%) and hsl(237, 49%, 15%), as well as a gif image of a animated emoji. The background-position, background-repeat, and background-size properties are also set to center, no-repeat, and cover respectively.
+The first CSS rule sets the font-size to (62.5)per. sets the box-sizing property to border-box, sets the height to 100per, and sets the background color and background image of my webpage. The background color is set to hsl(237, 49, 15) and the background image is set to a radial gradient of hsl(214, 43, 35) and hsl(237, 49, 15), as well as a gif image of a animated image. The background-position, background-repeat, and background-size properties are also set to center, repeat, as I liked the affect.
 
-The next CSS rule sets the box-sizing property to inherit for all elements, which means that the box-sizing property of the parent element will be inherited by all child elements. The body element is also given a margin, font, and font-weight. A focus rule is added to set the outline of an element to 3px dotted hsl(0, 100%, 50%) when it is focused.
+The next CSS rule sets the box-sizing property to inherit for all elements, which means that the box-sizing property of the parent element will be inherited by all child elements. The body element is also given a margin, font, and font-weight. A focus rule is added to set the outline of an element to 3px dotted hsl(0, 100, 50) when it is focused.
 
 The .header class is used to set the display property to flex, the width and max-width to 76rem, and the margin to 0 auto. The justify-content property is set to space-between and the padding and border properties are also set.
 
@@ -169,7 +192,7 @@ The .fa-spin class is used to add a class to rotate the icon using the @keyframe
 
 The .score class is used to set the width, text-align, line-height, background, color, and border-radius properties of the score card. The .score > span class is used to set the font-size, padding, and text-transform properties of the score card.
 
-Overall, the code is a CSS stylesheet that controls the visual design and layout of my webpage. The CSS styles are applied to the HTML elements of the webpage, including the background color, background image, font size, padding, border, and layout. The CSS stylesheet uses various CSS properties and techniques such as the use of classes, ids, and animations to create a visually appealing and responsive webpage.
+This code is a CSS stylesheet that controls the visual design and layout of my webpage. The CSS styles are applied to the HTML elements of the webpage, including the background color, background image, font size, padding, border, and layout. The CSS stylesheet uses various CSS properties and techniques such as the use of classes, ids, and animations to create a visually appealing and responsive webpage.
 
 Now for my JavaScript this is a JavaScript file that creates a Rock, Paper, Scissors, Lizard, Spock game. The game includes an audio player, a clock, a modal with game rules, and an interactive game page where players can select their move and play against the computer.
 
@@ -187,13 +210,13 @@ The sixth section of the code creates sounds for the game, these include backgro
 
 The seventh and final section of the code handles the logic of the game. When the user clicks on a move on the start page, the game generates a random move for the computer, compares the two moves, and displays the outcome on the result page. The game also updates the scorecard and plays the appropriate sound based on the outcome. The game allows the user to play again by clicking on the "play again" button.
 
-Overall, the code provided creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
+The code provides well creates an interactive and visually appealing game that combines HTML, CSS, and JavaScript to create an enjoyable experience for the user. The game includes various interactive elements such as an audio player, a clock, and a modal that adds to the overall user experience.
    
 ![Design preview for the Rock, Paper, Scissors coding challenge](images/game.png)
    
 **Have fun playing my live version of the game link below!** 🚀
 [See my game live here in GitHub pages](https://aol83.github.io/)
-will not require password of (helloworld) \yet
+thiS will not require a password of (helloworld) as of yet.
 
 ## Acknowledgement
 
