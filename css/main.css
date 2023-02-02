@@ -485,7 +485,7 @@ section h2 {
   text-align: center;
   border: 1px solid hsl(0, 0%, 53%);
   border-radius: 10px;
-  animation-name: animateshow;
+  animation-name: animate-show;
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
@@ -511,7 +511,7 @@ section h2 {
   cursor: pointer;
 }
 /* Modal Animation */
-@keyframes animateshow {
+@keyframes animate-show {
   from {
     top: -50rem;
   }
